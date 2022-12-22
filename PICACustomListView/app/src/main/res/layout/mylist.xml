@@ -11,8 +11,8 @@
         android:layout_height="152dp"
         android:layout_marginStart="18dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="60dp"
-        app:layout_constraintEnd_toStartOf="@+id/pname"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/pname"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -21,21 +21,22 @@
         android:id="@+id/pname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="71dp"
-        android:layout_marginEnd="65dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="7dp"
         android:text="TextView"
         android:textSize="25dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/pprice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pimage" />
 
     <TextView
         android:id="@+id/pprice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="74dp"
+        android:layout_marginStart="63dp"
         android:text="TextView"
         android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pname" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="222dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

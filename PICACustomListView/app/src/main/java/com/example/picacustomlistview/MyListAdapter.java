@@ -33,15 +33,15 @@ public class MyListAdapter extends ArrayAdapter<String> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater = context.getLayoutInflater();
-        View rowView = inflater.inflate(R.layout.mylist,null,true);
+        View colView = inflater.inflate(R.layout.mylist,null,true);
 
-        TextView name = rowView.findViewById(R.id.pname);
-        TextView price = rowView.findViewById(R.id.pprice);
-        ImageView image = rowView.findViewById(R.id.pimage);
+        TextView name = colView.findViewById(R.id.pname);
+        TextView price = colView.findViewById(R.id.pprice);
+        ImageView image = colView.findViewById(R.id.pimage);
 
         name.setText(pname[position]);
         price.setText(pprice[position]);
         image.setImageResource(pimage[position]);
-        return rowView;
+        return colView;
     }
 }
