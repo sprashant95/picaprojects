@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "100093645579",
+    "project_id": "picafileuploaddb",
+    "storage_bucket": "picafileuploaddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100093645579:android:c5b39d44e5ee927a82c80e",
+        "android_client_info": {
+          "package_name": "com.example.picafileuploadfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100093645579-05lrnge90p2v6oa8po1gt8g3ujt4qgvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVQmfcdlsJs-fP9Ay0KtFaOcAqJtJLKi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100093645579-05lrnge90p2v6oa8po1gt8g3ujt4qgvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
